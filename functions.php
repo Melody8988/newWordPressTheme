@@ -8,11 +8,12 @@ function newTheme_script_enqueue_melody8988(){
 add_action( 'wp_enqueue_scripts', 'newTheme_script_enqueue_melody8988');
 //'wp_enqueue_scripts'
 
-function newTheme_theme_setup_melody8988(){
+// function newTheme_theme_setup_melody8988(){
 
-    add_theme_support( 'menus' );
-    register_nav_menu( 'primary', 'Primary Header Navigation' )
+//     add_theme_support( 'menus' );
+     
+//     register_nav_menu( 'primary', 'Primary Header Navigation' );
 
-}
+// } 
 
-add_action('init', 'newTheme_theme_setup_melody8988');
+// add_action('init', 'newTheme_theme_setup_melody8988');
