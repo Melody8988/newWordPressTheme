@@ -6,3 +6,10 @@ function newTheme_script_enqueue_melody8988(){
 }
 
 add_action( 'wp_enqueue_scripts', 'newTheme_script_enqueue_melody8988');
+
+function newTheme_setup_melody8988(){
+add_theme_support( 'menus' );
+
+}
+
+add_action('')
